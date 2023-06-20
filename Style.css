@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 0;
+}
+/*************NAV************/
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+.nav-bar a{
+    cursor: pointer;
+    font-weight: lighter;
+    font-size: 3vw;
+    color: midnightblue;
+}
+
+.nav-bar ul{
+    display: inline-flex;
+    gap: 3.5vw;
+}
+.nav-bar ul li {
+   color: rgb(51, 48, 48);
+   font-weight: bold;
+   cursor: pointer;
+}
+.nav-bar ul li:hover {
+    color: midnightblue;
+    transition: all 0.3s;
+ }
+ /*************FIRSTPAGE************/
+ .firstpage{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1vw;
+    margin: 1vw;
+ }
+ .firstpage .firstdiv{
+    display: flex;
+    flex-wrap:wrap;
+    width: 50vw;
+    height: 60vh;
+    padding: 0;
+    padding-left: 0;
+    padding-right:2vw;
+    margin: 1vh;
+    margin-left: 0;
+ }
+ .firstpage div.seconddiv{
+    width: 50vw;
+    height: 61.5vh;
+    background: url(images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    
+ }
+ .firstpage .text {
+    padding-left: 3vh;
+    padding-right: 3vh;
+    margin-bottom: 5vh;
+ }
+ .firstpage .text .collection{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15vw;
+ }
+ .firstpage .text .collection h2{
+    font-size:1.4vw ;
+ }
+ .firstpage .text .title h1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    font-size:6vw ;
+ }
+ .firstpage .text .title h3{
+    margin: auto;
+    font-size:1.4vw ;
+    color: rgba(0, 0, 0, 0.767);
+ }
+.firstpage .firstdiv .img {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 3vw;
+    padding-top: 0;
+    padding-bottom: 1vw;
+    gap: 2vw;
+    height:33.2vh ;
+    width: 47.5vw;
+    margin: auto;
+    margin-top: 0vh;
+    background: linear-gradient(to bottom right,rgba(25, 25, 112, 0.096) ,  rgba(25, 25, 112, 0.096), white);
+}
+.img1 {
+   height: 20vh;
+   width: 15vw;
+   background: url(images/a.jpg);
+   background-position: center;
+   background-size: cover;
+   margin: auto;
+   border-radius: 15px;
+}
+.img2 {
+    height: 20vh;
+   width: 15vw;
+    background: url(images/c.jpeg);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    border-radius: 15px;
+ }
+ .img3 {
+    height: 20vh;
+   width: 15vw;
+    background: url(images/b.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    border-radius: 15px;
+ }
+ .footer{
+    margin: 3vh;
+    margin-top: 10vh;
+    position: relative;
+ }
+ .social{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1vw;
+    position: absolute;
+    bottom: 0;
+   
+ }
+ .logo1{
+    height: 48px;
+    width: 48px;
+    background: url(images/f.png);
+    background-position: center;
+    background-size: cover;
+
+ }
+ .logo2{
+    height: 48px;
+    width: 48px;
+    background: url(images/i.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+.logo3{
+   height: 48px;
+   width: 48px;
+   background: url(images/t.png);
+   background-position: center;
+   background-size: cover;
+    
+ }
+ .direction{
+   display: flex;
+   flex-wrap: nowrap;
+   gap: 2vw;
+   text-align: center;
+   margin-left:43vw ;
+   margin-right:43vw;
+   position: absolute;
+    bottom: 0;
+ }
+ .preveiw{
+   height: 48px;
+   width: 48px;
+   padding: 8px;
+   background: url(images/left.png);
+   background-position: center;
+   background-size: cover;
+   
+ }
+ .preveiw:hover{
+   background-color: rgba(25, 25, 112, 0.808);
+   border-radius: 40px;
+   padding: 8px;
+   height: 48px;
+   width: 48px;
+ }
+ .next{
+   height: 48px;
+   width: 48px;
+   padding: 8px;
+   background: url(images/right.png);
+   background-position: center;
+   background-size: cover;
+   
+ }
+ .next:hover{
+   background-color: rgba(25, 25, 112, 0.808);
+   border-radius: 40px;
+   padding: 8px;
+   height: 48px;
+   width: 48px;
+ }
+ .numéropage{
+   margin-left: 85vw;
+   display: flex;
+   flex-wrap: nowrap;
+   align-items: center;
+ }
+ .numéropage h1{
+   font-weight: bold;
+   font-size: 5vw;
+   color: midnightblue;
+ }
+ .numéropage span{
+   font-weight: lighter;
+   font-size: 3vw;
+   color: rgba(25, 25, 112, 0.63);
+}
